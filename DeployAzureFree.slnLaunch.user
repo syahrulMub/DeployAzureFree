@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "deployazurefree.client\\deployazurefree.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DeployAzureFree.Server\\DeployAzureFree.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+C:\Users\Syahrul\Documents\repository\DeployAzureFree\deployazurefree.client\obj\Debug\deployazurefree.client.esproj.CoreCompileInputs.cache

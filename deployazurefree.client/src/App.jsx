@@ -14,6 +14,7 @@ function App() {
             <thead>
                 <tr>
                     <th>Date</th>
+                    <th>Location</th>
                     <th>Temp. (C)</th>
                     <th>Temp. (F)</th>
                     <th>Summary</th>
@@ -23,7 +24,7 @@ function App() {
                 {forecasts.map(forecast =>
                     <tr key={forecast.date}>
                         <td>{forecast.date}</td>
-                        <td>{forecast.Location}</td>
+                        <td>{forecast.location}</td>
                         <td>{forecast.temperatureC}</td>
                         <td>{forecast.temperatureF}</td>
                         <td>{forecast.summary}</td>

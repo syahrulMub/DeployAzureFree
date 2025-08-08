@@ -23,6 +23,7 @@ function App() {
                 {forecasts.map(forecast =>
                     <tr key={forecast.date}>
                         <td>{forecast.date}</td>
+                        <td>{forecast.Location}</td>
                         <td>{forecast.temperatureC}</td>
                         <td>{forecast.temperatureF}</td>
                         <td>{forecast.summary}</td>

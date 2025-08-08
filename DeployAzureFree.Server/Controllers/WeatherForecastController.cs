@@ -27,7 +27,7 @@ namespace DeployAzureFree.Server.Controllers
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
-                Location = Locations[Random.Shared.Next(Summaries.Length)],
+                Location = Locations[Random.Shared.Next(Locations.Length)],
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]

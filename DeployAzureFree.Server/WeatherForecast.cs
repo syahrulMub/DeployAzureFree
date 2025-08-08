@@ -2,7 +2,7 @@ namespace DeployAzureFree.Server
 {
     public class WeatherForecast
     {
-        public string Location { get; set; } = "Kalibening";  
+        public string Location { get; set; } 
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
